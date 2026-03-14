@@ -1,0 +1,30 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "- Create an app\r - Install an express and its depandancies\r - Install nodemon and mongoose",
+  "homepage": "https://github.com/vishal-gupta5/NextHire#readme",
+  "bugs": {
+    "url": "https://github.com/vishal-gupta5/NextHire/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vishal-gupta5/NextHire.git"
+  },
+  "license": "ISC",
+  "author": "Vishal Gupta",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node src/app.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.3.0",
+    "nodemon": "^3.1.14"
+  }
+}
